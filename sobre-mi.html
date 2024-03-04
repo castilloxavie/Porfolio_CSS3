@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--Estilos-->
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./assets/fonts/Poppins/poppins.css" />
+        <link rel="stylesheet" href="assets/css/resect.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+
+        <title>portafolio Xavier castillo</title>
+    </head>
+    <body>
+        <!--Layout principal-->
+        <div class="layout">
+            <!--Barra lateral (info del usuario)-->
+            <aside class="layaut__aside">
+                <section class="aside__user-info">
+                    <!--Informacion general-->
+                    <div class="user-info__general">
+                        <div class="user-info__container-imagen">
+                            <img
+                                src="assets/img/xavier.jpg"
+                                alt="foto de perfil del usuario"
+                                class="user-info__imagen"
+                                style="width: 295px; height: 450px"
+                            />
+                        </div>
+
+                        <h2 class="user-info__name">Xavier Castillo</h2>
+                        <h4 class="user-info__job">Desarrollador WEB</h4>
+                    </div>
+
+                    <!--menu de navegacion-->
+                    <nav class="layout__menu">
+                        <ul class="menu__list">
+                            <li class="menu__option">
+                                <a href="index.html" class="menu__link">
+                                    <i class="fa-solid fa-house menu__icom"></i>
+                                    <span class="menu_overlay">Home</span>
+                                </a>
+                            </li>
+
+                            <li class="menu__option">
+                                <a href="sobre-mi.html" class="menu__link">
+                                    <i class="fa-solid fa-user menu__icom"></i>
+                                    <span class="menu_overlay">Sobre mi</span>
+                                </a>
+                            </li>
+
+                            <li class="menu__option">
+                                <a href="estudios.html" class="menu__link">
+                                    <i
+                                        class="fa-solid fa-graduation-cap menu__icom"
+                                    ></i>
+                                    <span class="menu_overlay">Estudios</span>
+                                </a>
+                            </li>
+
+                            <li class="menu__option">
+                                <a href="portafolio.html" class="menu__link">
+                                    <i
+                                        class="fa-solid fa-briefcase menu__icom"
+                                    ></i>
+                                    <span class="menu_overlay">Portafolio</span>
+                                </a>
+                            </li>
+
+                            <li class="menu__option">
+                                <a href="blog.html" class="menu__link">
+                                    <i class="fa-solid fa-book menu__icom"></i>
+                                    <span class="menu_overlay">Blog</span>
+                                </a>
+                            </li>
+
+                            <li class="menu__option">
+                                <a href="contacto.html" class="menu__link">
+                                    <i
+                                        class="fa-solid fa-envelope menu__icom"
+                                    ></i>
+                                    <span class="menu_overlay">Contactos</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!--Redes sociales-->
+                    <div class="user-info__links">
+                        <ul class="user-links__social">
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="fa-brands fa-youtube social__icon"
+                                    ></i>
+                                </a>
+                            </li>
+
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="fa-brands fa-linkedin social__icon"
+                                    ></i>
+                                </a>
+                            </li>
+
+                            <li class="social__option">
+                                <a href="#" class="social__link">
+                                    <i
+                                        class="fa-brands fa-instagram social__icon"
+                                    ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--botn de CV-->
+                    <div class="user-info__buttons">
+                        <a
+                            href="CV_XAVIER_CASTILLO_VARON.pdf"
+                            download="CV_XAVIER_CASTILLO_VARON.pdf"
+                            class="user-info__btn"
+                            >Descargar CV</a
+                        >
+                    </div>
+
+                    <!--Pie de pagina-->
+                    <footer class="user-info_footer">
+                        &copy; 2024 Xavier Alberto Castillo Varon
+                    </footer>
+                </section>
+            </aside>
+
+            <!--Contenido principal-->
+            <main class="layout__contect">
+                <section class="contect__page contect__about">
+                    <header class="about__header">
+                        <h2 class="about__title">
+                            Sobre <span class="title__color">Mi</span>
+                        </h2>
+                    </header>
+
+                    <section class="about__personal-info">
+                        <article class="personal-info__bio">
+                            <p class="personal-info__description">
+                                desarrollador junior con habilidades en
+                                tecnología ADSI, Python, Django, bases de datos
+                                (SQL Server, MySQL), HTML, CSS, JavaScript,
+                                React y Node.js. Tiene formación en Sena,
+                                Platzi, Academlo y actualmente estoy estudiando
+                                la Ingenieria de Software
+                            </p>
+                        </article>
+
+                        <div class="personal-info__data">
+                            <ul class="personal-info__list">
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title"
+                                        >Edad</span
+                                    >
+                                    <span class="personal-info__value">30</span>
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title"
+                                        >Pais</span
+                                    >
+                                    <span class="personal-info__value"
+                                        >Colombia</span
+                                    >
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title"
+                                        >Dirección</span
+                                    >
+                                    <span class="personal-info__value"
+                                        >Soacha - Cundinamarca (Hogares
+                                        Soacha)</span
+                                    >
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title"
+                                        >Email</span
+                                    >
+                                    <span class="personal-info__value"
+                                        >xcastillovaron93@gmail.com</span
+                                    >
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title"
+                                        >Celular</span
+                                    >
+                                    <span class="personal-info__value"
+                                        >3116490366</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="about__services">
+                        <header class="services__header">
+                            <h2 class="services__title">
+                                Lo que <span class="title__color">hago</span>
+                            </h2>
+                        </header>
+
+                        <div class="services_container">
+                            <article class="services__service">
+                                <div class="service__icon">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+
+                                <div class="services__content">
+                                    <h4 class="service__title">Programación</h4>
+                                    <p class="service__description">
+                                        Ofrezco servicios de programación,
+                                        transformando conceptos en soluciones
+                                        digitales. Mi experiencia abarca el
+                                        desarrollo de aplicaciones utilizando
+                                        tecnologías modernas como Node.js,
+                                        React, y bases de datos relacionales.
+                                        Garantizo un código claro y lógico para
+                                        satisfacer las necesidades específicas
+                                        de cada proyecto.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="services__service">
+                                <div class="service__icon">
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                </div>
+
+                                <div class="services__content">
+                                    <h3 class="service__title">
+                                        Baese de datos relacionales
+                                    </h3>
+                                    <p class="service__description">
+                                        Diseño y administración de bases de
+                                        datos relacionales para garantizar un
+                                        almacenamiento eficiente y estructurado
+                                        de la información. Utilizo tecnologías
+                                        que aseguran la integridad y la
+                                        accesibilidad de los datos.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="services__service">
+                                <div class="service__icon">
+                                    <i class="fa-solid fa-computer"></i>
+                                </div>
+
+                                <div class="services__content">
+                                    <h3 class="service__title">
+                                        Desarrollo Web
+                                    </h3>
+                                    <p class="service__description">
+                                        Habilidades en el diseño y desarrollo de
+                                        páginas web atractivas y funcionales.
+                                        Utilizo tecnologías clave como HTML5,
+                                        CSS3 y JavaScript para crear
+                                        experiencias de usuario intuitivas. Mi
+                                        enfoque se centra en la creación de
+                                        sitios web responsivos y personalizados,
+                                        adaptados a las necesidades específicas
+                                        de cada cliente, aunque mi
+                                        especialización principal se encuentra
+                                        en otros aspectos de la tecnología.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="services__service">
+                                <div class="service__icon">
+                                    <i class="fa-solid fa-terminal"></i>
+                                </div>
+
+                                <div class="services__content">
+                                    <h4 class="service__title">
+                                        Administración de sistemas
+                                    </h4>
+                                    <p class="service__description">
+                                        Ofrezco servicios de administración de
+                                        sistemas para garantizar un
+                                        funcionamiento eficiente y seguro de las
+                                        infraestructuras tecnológicas. Desde la
+                                        configuración y mantenimiento de
+                                        servidores hasta la implementación de
+                                        medidas de seguridad, proporciono
+                                        soluciones integrales para asegurar la
+                                        estabilidad y la disponibilidad de los
+                                        sistemas.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="about__reviews">
+                        <header class="reviews__header">
+                            <h2 class="reviews__titles">Reseñas</h2>
+                        </header>
+
+                        <div class="reviews__containrer">
+                            <article class="reviews__review">
+                                <div class="review__img">
+                                    <img
+                                        src="assets/img/testimonio1.jpg"
+                                        class="review__fullimg"
+                                        alt="testinmonio"
+                                    />
+                                </div>
+
+                                <div class="review__description">
+                                    <p class="review_text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quibusdam magnam ipsum
+                                        rem sequi? Similique in accusamus fuga
+                                        tempora eos unde dicta debitis dolorem
+                                        quas consectetur voluptas, autem sint
+                                        impedit aliquid.
+                                    </p>
+                                </div>
+
+                                <div class="review__athor">
+                                    <div class="reviw__athor-info">
+                                        <h3 class="review__name">
+                                            Emelina Varon
+                                        </h3>
+                                        <h4 class="review__company">
+                                            Developer S.A
+                                        </h4>
+                                    </div>
+
+                                    <div class="review__author-icon">
+                                        <i
+                                            class="fa-solid fa-quote-right review__icon"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="reviews__review">
+                                <div class="review__img">
+                                    <img
+                                        src="assets/img/testimonio2.jpg"
+                                        class="review__fullimg"
+                                        alt="testinmonio"
+                                    />
+                                </div>
+
+                                <div class="review__description">
+                                    <p class="review_text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quibusdam magnam ipsum
+                                        rem sequi? Similique in accusamus fuga
+                                        tempora eos unde dicta debitis dolorem
+                                        quas consectetur voluptas, autem sint
+                                        impedit aliquid.
+                                    </p>
+                                </div>
+
+                                <div class="review__athor">
+                                    <div class="reviw__athor-info">
+                                        <h4 class="review__name">
+                                            Alberto Castillo
+                                        </h4>
+                                        <h5 class="review__company">
+                                            FullStack S.L
+                                        </h5>
+                                    </div>
+
+                                    <div class="review__author-icon">
+                                        <i
+                                            class="fa-solid fa-quote-right review__icon"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="about__clients">
+                        <header class="clients__header">
+                            <h3 class="clients__titles">Clientes</h3>
+                        </header>
+
+                        <div class="clients__container">
+                            <article class="client__item">
+                                <a href="#" class="clients__link">
+                                    <img
+                                        src="assets/img/cliente-1.png"
+                                        class="clients__img"
+                                        alt="clientes1"
+                                    />
+                                </a>
+                            </article>
+
+                            <article class="client__item">
+                                <a href="#" class="clients__link">
+                                    <img
+                                        src="assets/img/cliente-2.png"
+                                        class="clients__img"
+                                        alt="clientes1"
+                                    />
+                                </a>
+                            </article>
+
+                            <article class="client__item">
+                                <a href="#" class="clients__link">
+                                    <img
+                                        src="assets/img/cliente-3.png"
+                                        class="clients__img"
+                                        alt="clientes1"
+                                    />
+                                </a>
+                            </article>
+
+                            <article class="client__item">
+                                <a href="#" class="clients__link">
+                                    <img
+                                        src="assets/img/cliente-4.png"
+                                        class="clients__img"
+                                        alt="clientes1"
+                                    />
+                                </a>
+                            </article>
+
+                            <article class="client__item">
+                                <a href="#" class="clients__link">
+                                    <img
+                                        src="assets/img/cliente-5.png"
+                                        class="clients__img"
+                                        alt="clientes1"
+                                    />
+                                </a>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="about__pices">
+                        <header class="prices__header">
+                            <h2 class="prices__title">Precios</h2>
+                        </header>
+
+                        <div class="prices__container">
+                            <article class="prices__box">
+                                <div class="prices__subtitle">
+                                    <span class="prices__text">Normal</span>
+                                </div>
+
+                                <div class="prices__price">
+                                    <span class="prices__number">$20</span>
+                                    <small class="prices__advice">Al mes</small>
+                                </div>
+
+                                <div class="prices__buy">
+                                    <a href="#" class="prices__btn">prueba gratis</a>
+                                </div>
+
+                                <div class="prices__reward">
+                                    un curso de dearrollo web
+                                </div>
+
+                                <div class="prices__reward">
+                                    soporte a preguntas y dudas
+                                </div>
+
+                                <div class="prices__reward">
+                                    certifcado 
+                                </div>
+
+                            </article>
+
+                            <article class="prices__box">
+                                <div class="prices__subtitle">
+                                    <span class="prices__text">Premiun</span>
+                                </div>
+
+                                <div class="prices__price">
+                                    <span class="prices__number">$50</span>
+                                    <small class="prices__advice">Al mes</small>
+                                </div>
+
+                                <div class="prices__buy">
+                                    <a href="#" class="prices__btn">prueba gratis</a>
+                                </div>
+
+                                <div class="prices__reward">
+                                    5 curso de dearrollo web
+                                </div>
+
+                                <div class="prices__reward">
+                                    soporte a preguntas y dudas prioritarias
+                                </div>
+
+                                <div class="prices__reward">
+                                    certifcado 
+                                </div>
+
+                            </article>
+
+                        </div>
+                    </section>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
